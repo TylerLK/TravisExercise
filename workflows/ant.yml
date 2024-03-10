@@ -1,8 +1,7 @@
 # This workflow will build a Java project with ANT
 
-name: JavaCI
-run-name: ${{ github.actor}} is testing out GitHub Actions
-
+name: Java CI
+run-name: ${{ github.actor }} is testing out GitHub Actions
 on: [push]
 jobs:
   build:
